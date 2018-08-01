@@ -6,14 +6,16 @@
 ## 使用：
       引入jquery、handlebar.js、myajax.js以及config文件
 ### 目标容器：
-
-    <div class="ajax-box" ajax-id="1"></div>
+```php
+<div class="ajax-box" ajax-id="1"></div>
+```
 ### tpl：
-
-    <script class="ajax-tpl" ajax-id="1" type="text/x-handlebars-template"></script>
+```php
+<script class="ajax-tpl" ajax-id="1" type="text/x-handlebars-template"></script>
+```
 ### js：
-
-    var myajax = new Ajaxer({
+```php
+var myajax = new Ajaxer({
     main: function () {
         this.rander();
     },
@@ -22,11 +24,16 @@
     after: function () {
     }
 		});
+```
 ## 插件内含图片自适应插件：
 # imgautosize
 ## 使用：
 		myajax.js
 ### img：
-		<img class="autosize">
+```php
+<img class="autosize">
+```
 ### js：
-		var imgsize = new imgAutoSize();
+```php
+var imgsize = new imgAutoSize();
+```
